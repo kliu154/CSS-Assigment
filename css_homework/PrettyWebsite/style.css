@@ -1,0 +1,157 @@
+.page_header {
+    height: 385px;
+    background: url("img/beach.jpg") top left no-repeat;
+}  
+  
+.page_header h1 {
+    padding-top:160px;
+    padding-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:64px;
+    font-weight:bold;  
+    color: #FCF8E3;
+    letter-spacing: -1px;
+    margin:0px;
+}
+
+.menu_bar {
+    height:60px;
+    background: rgb(88, 88, 152) top left no-repeat;
+  }
+  
+.navcontainer ul
+  {
+  padding-left: 0;
+  margin-left: 0;
+  margin-top:5px;
+  background-color: transparent;
+  color: #F3E7A9;
+  float: left;
+  width: 100%;
+  font-family: verdana, helvetica, sans-serif;
+  font-size:32px;
+  }
+  
+.navcontainer ul li { display: inline; }
+  
+.navcontainer ul li a
+  {
+  padding: 0.2em 1em;
+  background-color: transparent;
+  color: #F3E7A9;
+  text-decoration: none;
+  float: left;
+  border-right: 1px solid #BBB774;
+  }
+  
+.navcontainer ul li a:hover
+  {
+  background-color: transparent;
+  color: #fff;
+  }
+
+  
+.left_side {
+    float:left;
+    width:800px;
+    border: 1px solid purple;
+  }
+
+.left_side h2 {
+    margin-left: 30px;
+    font-family: verdana;
+    font-size:32px;
+    color: rgb(84, 14, 95);
+}
+    
+.left_side h3 {
+    margin-left: 30px;
+    font-family: verdana;
+    font-size:26px;
+    color: rgb(32, 32, 110);
+  }
+
+.left_side .para {
+    display: flex;
+}
+
+.left_side img {
+    width: 200px;
+    margin-left: 20px;
+}
+    
+.left_side p {
+    align-self: flex-end;
+    width: 450px;
+    margin:20px;
+    margin-right:15px;
+    font-family: verdana;
+    font-size:18px;
+    color: #333333;
+  }
+  
+.right_side {
+    float:right;
+    width:600px;
+  }
+    
+.right_side h3 {
+    margin-right:10px;
+    margin-bottom: 5px;
+    font-family: verdana;
+    font-size:32px;
+    font-weight: bold;
+    line-height:16px;
+    color: rgb(84, 14, 95);
+    padding:4px;
+    text-align: center;
+  }
+
+.right_side .upper {
+    background: azure;
+}
+
+.right_side .lower {
+    background: rgba(244, 223, 244, 0.55);
+}
+    
+.right_side p {
+    margin:5px;
+    margin-bottom:15px;
+    padding-right:10px;
+    font-family: verdana;
+    font-size:20px;
+    line-height:16px;
+    color: #333333;
+  }
+  
+.page_footer {
+    height: 70px;
+    background: rgb(88, 88, 152) top left no-repeat;
+  }  
+  
+.page_footer A:link {
+      COLOR: #F2C968; text-decoration: underline
+  }
+.page_footer A:visited {
+      COLOR: #F2C968; text-decoration: underline
+  }
+.page_footer A:active {
+      COLOR: #F2C968; text-decoration: underline
+  }
+.page_footer A:hover {
+      COLOR: #F2C968; text-decoration: none
+  }
+  
+.page_footer p {
+    text-align:center;
+    padding-top:20px;
+    font-family: verdana;
+    font-size:11px;
+    line-height:16px;
+    color: #FCF8E3;
+  }
+  
+.spacer {
+    margin:0px;padding:0px;height:10px;clear:both;
+  }
